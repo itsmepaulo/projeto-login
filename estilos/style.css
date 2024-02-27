@@ -58,9 +58,16 @@ section#login > div#formulario{
     display: block;
 }
 
-#formulario > h1{
+div#formulario > h1{
     font-family: longhaul;
     color: #8ce994;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+
 }
 
 div#formulario > form > label{
