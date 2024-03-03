@@ -20,6 +20,16 @@
 
     }
 
+    .campo > input[type=email]{
+        width: 300px;
+        height: 30px;
+    }
+    
+    .campo > input[type=password]{
+        width: 300px;
+        height: 30px;
+    }
+
 }
 
 @media screen and (min-width:992px){
@@ -50,5 +60,25 @@
         font-size: 1.2em;
     }
 
+    .campo > input[type=email]{
+        width: 300px;
+        height: 30px;
+    }
+    
+    .campo > input[type=password]{
+        width: 300px;
+        height: 30px;
+    }
+    
+    form > input[type=submit]{
+        height: 50px;
+        margin: 30px 0;
+    }
+
+    form > a.botao{
+        height: 50px;
+        margin: 30px 0;
+        padding: 7px 0;
+    }
 }
 
